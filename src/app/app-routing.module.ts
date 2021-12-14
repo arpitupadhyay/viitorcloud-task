@@ -7,7 +7,7 @@ import { NoteComponent } from './note/note.component';
 import { AuthGuard } from './_guard/auth.guard';
 
 const routes: Routes = [
-  { path: 'login', component: LoginComponent },
+  { path: '', component: LoginComponent },
   {
     path: 'notes', children: [
       { path: '', component: NotesComponent },

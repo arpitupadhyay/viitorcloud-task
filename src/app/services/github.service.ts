@@ -8,7 +8,7 @@ import { data } from 'jquery';
 @Injectable()
 export class GitHubService {
 
-  baseURL: string = "https://my-json-server.typicode.com/arpitupadhyay/vittorcloud-json/Notes/asdasd";
+  baseURL: string = "https://my-json-server.typicode.com/arpitupadhyay/vittorcloud-json/Notes/";
 
   constructor(private http: HttpClient) {
   }
