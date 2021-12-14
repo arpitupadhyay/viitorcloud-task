@@ -1,0 +1,15 @@
+<!-- <p>note {{page}} works!</p> -->
+
+<form class="m-1">
+    <div class="form-group">
+        <label for="exampleInputEmail1">{{page}} Title</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Title..." [(ngModel)]="singleNote.title" name="title" required>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">{{page}} Content</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Content..."
+            [(ngModel)]="singleNote.content" name="content" required>
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="submitNote()">Submit</button>
+</form>
